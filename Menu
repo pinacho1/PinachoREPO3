@@ -1,0 +1,62 @@
+#!/bin/bash
+#Pinacho
+echo "
+.___  ___.  _______ .__   __.  __    __  
+|   \/   | |   ____||  \ |  | |  |  |  | 
+|  \  /  | |  |__   |   \|  | |  |  |  | 
+|  |\/|  | |   __|  |  . `  | |  |  |  | 
+|  |  |  | |  |____ |  |\   | |  `--'  | 
+|__|  |__| |_______||__| \__|  \______/  "
+
+
+echo "-----selecciona una opcion-----"
+
+opciones="bandith comandos rutas cmd labslinux webinal benchmark hackerrank me>
+
+select opcion in $opciones;
+do
+        if [ $opcion = "bandith" ]; then
+                cat bandith
+
+        elif [ $opcion = "comandos" ]; then
+                xdg-open 'https://github.com/pinacho1/PINACHOREPO/blob/master/>
+
+        elif [ $opcion = "rutas" ]; then
+                xdg-open 'https://github.com/pinacho1/PINACHOREPO/blob/master/>
+
+
+        elif [ $opcion = "cmd" ]; then
+                xdg-open 'https://github.com/pinacho1/PINACHOREPO/blob/master/>
+
+
+        elif [ $opcion = "labslinux" ]; then
+                xdg-open 'https://github.com/pinacho1/PINACHOREPO/blob/master/>
+
+        elif [ $opcion = "benchmark" ]; then
+                xdg-open 'https://github.com/pinacho1/2parcial-repo/blob/main/>
+
+
+        elif [ $opcion = "hackerrank" ]; then
+                xdg-open 'https://github.com/pinacho1/PinachoREPO3/blob/main/h>
+
+
+        elif [ $opcion = "menu" ]; then
+                cat prueba.txt
+
+        elif [ $opcion = "salir" ]; then 
+                echo "menu terminado
+                 Feliz★* 。 • ˚ ˚ ˛ ˚ ˛ •
+                •。★Navidad★ 。* 。
+                ° 。 ° ˛˚˛ * _Π_____*。*˚
+                ˚ ˛ •˛•˚ */______/~＼。˚ ˚ ˛
+                ˚ ˛ •˛• ˚ ｜ 田田 ｜門｜ ˚
+                Y un prospero año nuevo"
+
+                exit
+
+        else
+                echo "opcion no permitida"
+
+        fi
+done
+
